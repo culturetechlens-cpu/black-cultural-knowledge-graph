@@ -1,0 +1,45 @@
+{
+  "dataset": "CultureTechLens Black Cultural Knowledge Graph",
+  "version": "2.0",
+  "release_date": "2026-10-28",
+  "concept_doi": "10.5281/zenodo.23403147",
+  "source_artifact": "CultureTechLens Combined Graph, Release 2026-10-28 (combined-graph.json)",
+  "source_artifact_sha256": "307f3e125226b230f43c49b6cd1519fa2215ffee1f3e28ddb4b27c3c34f33797",
+  "license": "CC BY 4.0 (dataset); photographs remain under their own licenses — see photos.csv",
+  "files": {
+    "entities.csv/json": "One row/object per entity (7,487). Grades are carried per store and never merged.",
+    "relationships.csv/json": "One row/object per relationship (7,947). evidenced_by names the store(s) attesting the edge.",
+    "conflicts.csv": "Every preserved disagreement between the two stores (576 notes), labeled by class.",
+    "photos.csv": "The per-image evidence record for each attached photograph (408): creator, source, license, credit line."
+  },
+  "entity_types": {
+    "Person": 3037,
+    "Work": 1564,
+    "Event": 597,
+    "Institution": 487,
+    "Outlet": 452,
+    "Organization": 296,
+    "Place": 223,
+    "Business": 122,
+    "Practice": 98,
+    "Topic": 78,
+    "School": 71,
+    "Locality": 67,
+    "Publication": 63,
+    "Venue": 61,
+    "Address": 61,
+    "Church": 58,
+    "Archive": 57,
+    "List": 53,
+    "Neighborhood": 39,
+    "RadioStation": 17,
+    "Technology": 15,
+    "Policy": 14
+  },
+  "relationship_types_count": 83,
+  "grade_scales": {
+    "grade_master": "Canonical CSV master scale: VERIFIED / STRONG EVIDENCE / UNVERIFIED.",
+    "grade_build": "Build-graph scale under CTL-GOV-006: Verified = at least two independent sources including one authoritative; otherwise Provisional."
+  },
+  "id_note": "union_id (U-NNNNN) is the dataset id. master_ids and build_ids preserve each store’s own identifiers; the two stores’ CTL-E- strings are NOT interchangeable (221 known collisions) — cite the union_id."
+}
