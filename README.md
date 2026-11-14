@@ -13,6 +13,14 @@
 Cite as: CultureTechLens, "CultureTechLens Black Cultural Knowledge Graph" (Dataset v2.0), October 28, 2026. https://doi.org/10.5281/zenodo.23403147
 Source: CultureTechLens.
 
+## About this repository — the CTL standard block
+
+- **Purpose:** The combined-graph research cut of the Black Cultural Knowledge Graph (Dataset v2.0) — the larger working dataset behind the flagship's citable stamped slice.
+- **Scope:** Dataset files for the combined graph. The institution's front door, community files, and citable slice live in the [flagship repository](https://github.com/culturetechlens/culturetechlens).
+- **Status:** Dataset v2.0 (2026-10-28). Canonical counts for the public slice: `counts.json` in the flagship.
+- **Cite this:** Concept DOI [10.5281/zenodo.23403147](https://doi.org/10.5281/zenodo.23403147) · CC BY 4.0 · See `CITATION.cff`.
+- **Corrections:** Report an error in the flagship repository's Issues — corrections are logged in public.
+
 ## What this is
 
 One record per person, place, work, institution, event, and practice in Black culture — Chicago first — drawn from CultureTechLens's two research stores and published as a single downloadable dataset. Every entity carries its type, a curated description, the grade each store assigned it, and both stores' identifiers. Grades are carried per store and **never merged**; where the two stores disagree, the disagreement ships in `conflicts.csv`, labeled and explained — nothing is blended, averaged, or silently picked.
