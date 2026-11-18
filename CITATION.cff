@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 title: "CultureTechLens Black Cultural Knowledge Graph"
 type: dataset
-version: "2.0"
-date-released: 2026-10-28
+version: "2.2"
+date-released: 2026-11-18
 doi: 10.5281/zenodo.23403147
 license: CC-BY-4.0
 authors:
@@ -14,10 +14,13 @@ authors:
   - name: "CultureTechLens NFP"
 abstract: >-
   One record per person, place, work, institution, event, and practice in Black
-  culture — Chicago first. Version 2.0 is the union of CultureTechLens's
-  canonical master store and build graph (7,530 entities, 7,998 relationships),
-  with grades carried per store, all 576 preserved disagreements disclosed,
-  and 832 rights-documented photographs with per-image evidence records.
+  culture — Chicago first. Version 2.2 (2026-11-18) is the verified-only
+  release of the CultureTechLens combined graph (Release 2026-11-15), published
+  under Phase 0 as amended (Amendment A1): only rows graded VERIFIED or STRONG
+  EVIDENCE as stored are included — 3,488 entities, 2,628
+  relationships, 491 preserved disagreements disclosed, and 205
+  rights-documented photographs with per-image evidence records. Version 2.1
+  (2026-10-30) remains published as a dated historical version.
 keywords:
   - Black culture
   - Chicago
